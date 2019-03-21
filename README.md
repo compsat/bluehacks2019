@@ -1,4 +1,4 @@
-# Blue Hacks 2018 Website
+# Blue Hacks 2019 Website
 
 ## Dependencies
 	- [react](https://reactjs.org/)
