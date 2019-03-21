@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On  
+  RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
+  RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+  RewriteRule ^ - [L]
+
+  RewriteRule ^ /index.html [L]
+</IfModule>
+
+
+### php handler provided by phpupgrader ###
+AddHandler application/x-httpd-php70 .php
