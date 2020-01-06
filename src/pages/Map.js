@@ -5,7 +5,7 @@ export default class Map extends React.Component {
 		return(
 			<div id="map-container">
 				<div class="map-title blue">
-					<h1>Map to Blue Hacks 2019</h1>
+					<h1>Map to Blue Hacks 2020</h1>
 					<h2>
 						<span class="white">New Rizal Library </span> <br />
 						<span class="white">Ateneo de Manila University </span>

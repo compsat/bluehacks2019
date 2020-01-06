@@ -9,17 +9,17 @@ export default class Contact extends React.Component {
 					<h1 class="orange">Contact us</h1>
 					<p>If you have any inquiries regarding this event, please contact us: </p>
 					<div class="contact-info ">
-						<h2 class="purple">Luigi Reyes</h2>
+						<h2 class="purple">Jaymie Antonio</h2>
 						Project Head <br/>
-						+63 977 860 8008 <br />
-						<span class="blue"><a href="mailto:lorenzoreyes099@gmail.com">lorenzoreyes099@gmail.com</a></span>
-						
+						+63 921 474 6107 <br />
+						<span class="blue"><a href="mailto:trey.antonio@obf.ateneo.edu">trey.antonio@obf.ateneo.edu</a></span>
+
 					</div>
 					<div class="contact-info ">
-						<h2 class="purple">Carlo Mendoza</h2>
+						<h2 class="purple">Morgan Yao</h2>
 						Project Head <br/>
-						+63 915 649 0074 <br />
-						<span class="blue"><a href="mailto:carlo.mendoza@compsat.org">carlo.mendoza@compsat.org</a></span>
+						+63 949 994 8641 <br />
+						<span class="blue"><a href="mailto:morgan.yao@obf.ateneo.edu">morgan.yao@obf.ateneo.edu</a></span>
 					</div>
 				</div>
 			</div>
