@@ -11,6 +11,11 @@ export default class Home extends React.Component {
 						<span class="white"> 5th Floor, New Rizal Library </span>
 						<span class="white"> Ateneo de Manila University </span>
 					</p>
+					<div id="register-button-container">
+					<button id="register-button">
+  						Register
+						</button>
+						</div>
 				</div>
 			</div>
 		);
