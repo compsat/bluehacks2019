@@ -18,7 +18,7 @@ class App extends React.Component {
 				<div>
 					<div id="navbar">
 						<div class="regular-nav">
-						<img class="logo" alt="Blue Hacks Logo" src={require('./logo-nav.png')} />
+						<img class="logo" alt="Blue Hacks Logo" src={require('./assets/Logo - Light Blue - With Name.png')} />
 							<ul>
 								<li><CustomLink activeOnlyWhenExact={true} to="/" label="Home"/></li>
 								<li><CustomLink to="/about" label="About"/></li>
@@ -29,7 +29,7 @@ class App extends React.Component {
 							</ul>
 						</div>
 						<ul class="dropdown-nav">
-							<img class="logo" alt="Blue Hacks Logo" src={require('./logo-nav.png')} />
+							<img class="logo" alt="Blue Hacks Logo" src={require('./assets/Logo - Light Blue - With Name.png')} />
 							<div class="btn-drop">
 								<div class="menu-bar"></div>
 								<div class="menu-bar"></div>
