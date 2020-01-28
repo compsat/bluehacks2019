@@ -5,7 +5,7 @@ export default class Home extends React.Component {
 		return(
 			<div class="main-container">
 				<div  id="home-container" >
-					<img alt="Blue Hacks Logo" src={require('../assets/logo-big.png')} />
+					<div id="home-logo-container"><img alt="Blue Hacks Logo" src={require('../assets/Logo - Light Blue - With Name.png')} id="home-bh-logo"/></div>
 					<p>
 						<span class="cyan"> February 22, 2020 (8:00 AM) to February 23, 2020 (6:00 PM) </span>
 						<span class="white"> 5th Floor, New Rizal Library </span>
