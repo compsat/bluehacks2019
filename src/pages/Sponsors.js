@@ -7,18 +7,21 @@ export default class Testimonials extends React.Component {
 				<h1 class="pink">Sponsors</h1>
 				<h3>Co-Presenters</h3>
 				<div class="logos logos-big">
-					<img alt="Angat IO Logo" src={require('../assets/Angat_io_horizontal (1).png')} />
-					<img alt="ClinkIT Logo" src={require('../assets/clinkit-logo-horiontal-lightbg-xl.png')} />
+					<img alt="Accenture Logo" src={require('../assets/accenture-major1.png')} />
+					<img alt="Angat IO Logo" src={require('../assets/angatio-major2.png')} />
 				</div>
-				{/*<h3>Major Sponsor</h3>
+				<h3>Major Sponsor</h3>
 				<div class="logos logos-big">
-				</div>*/}
-				{/* <h3>Minor Sponsors</h3>
-				<div class="logos logos-small">
-					<img alt="Secret6 Logo" src={require('../assets/sponsor-secret6.png')} />
-					<img alt="Freelancer Logo" src={require('../assets/sponsor-freelancer-whitebg.png')} />	
+					<img alt="ClinkIT logo" src={require('../assets/clink-medium1.png')} />
+					<img alt="ClinkIT logo" src={require('../assets/jpm-medium2.png')} />
 				</div>
-				<h3>Yearlong Sponsors</h3>
+				<h3>Minor Sponsors</h3>
+				<div class="logos logos-small">
+					{/* <img alt="Secret6 Logo" src={require('../assets/sponsor-secret6.png')} />
+					<img alt="Freelancer Logo" src={require('../assets/sponsor-freelancer-whitebg.png')} />	 */}
+					<img alt="Pacific Laser Mark Co. Logo" src={require('../assets/pacific-minor1.jpg')} />
+				</div>
+				{/* <h3>Yearlong Sponsors</h3>
 				<div class="logos logos-small">
 					<img alt="Factset Logo" src={require('../assets/sponsor-factset.png')} />
 					<img alt="Azeus Logo" src={require('../assets/sponsor-azeus-whitebg.png')} />
