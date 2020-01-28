@@ -12,9 +12,11 @@ export default class Home extends React.Component {
 						<span class="white"> Ateneo de Manila University </span>
 					</p>
 					<div id="register-button-container">
-					<button id="register-button">
+					<a href="http://bit.ly/BH2020RegForm">
+					<button id="register-button" href="http://bit.ly/BH2020RegForm">
   						Register
 						</button>
+						</a>
 						</div>
 				</div>
 			</div>
