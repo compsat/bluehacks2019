@@ -6,7 +6,7 @@ export default class Testimonials extends React.Component {
 			<div id="testimonials-container">
 				<h1>Testimonials</h1>
 				<div class="main">
-					<div class="photo"><img alt="Neriz Broqueza" src={require('../assets/brian.jpg')} /></div>
+					<div class="photo"><img alt="Neriz Broqueza" src={require('../assets/neriz.png')} /></div>
 					<div class="content">
 						<p>
 							There was so much that I learned in the event. I felt some pressure going 
@@ -22,8 +22,8 @@ export default class Testimonials extends React.Component {
 						<div>
 							<span class="blue"><b>Neriz Broqueza</b></span> <br />
 							<span class="pink">Member of Team Med Hack</span><br />
-							<span class="orange">Blue Hacks 2020 3rd place winner </span><br />
-							<a class="purple" href="https://hangtimeapp.com" target="_blank" rel="noopener noreferrer">hangtimeapp.com</a>
+							<span class="orange">Blue Hacks 2019 3rd place winner </span><br />
+							<a class="purple" href="https://github.com/jhongcarlos/MedHack" target="_blank" rel="noopener noreferrer">https://github.com/jhongcarlos/MedHack</a>
 						</div>
 					</div>
 				</div>
