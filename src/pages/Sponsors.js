@@ -7,13 +7,13 @@ export default class Testimonials extends React.Component {
 				<h1 class="pink">Sponsors</h1>
 				<h3>Co-Presenters</h3>
 				<div class="logos logos-big">
-					<img alt="Accenture Logo" src={require('../assets/accenture-major1.png')} />
+					<img alt="Accenture Logo" class="logo-white-bg" src={require('../assets/accenture-major1.png')} />
 					<img alt="Angat IO Logo" src={require('../assets/angatio-major2.png')} />
 				</div>
 				<h3>Major Sponsor</h3>
 				<div class="logos logos-big">
-					<img alt="ClinkIT logo" src={require('../assets/clink-medium1.png')} />
-					<img alt="ClinkIT logo" src={require('../assets/jpm-medium2.png')} />
+					<img alt="ClinkIT logo" class="logo-white-bg" src={require('../assets/clink-medium1.png')} />
+					<img alt="JP Morgan & Chase Logo" id="jpmorgan" src={require('../assets/jpm-medium2.png')} />
 				</div>
 				<h3>Minor Sponsors</h3>
 				<div class="logos logos-small">
@@ -32,7 +32,8 @@ export default class Testimonials extends React.Component {
 				<h1 class="pink">Partners</h1>
 				<div class="logos logos-small">
 					<img alt="Rizal Library Logo" src={require('../assets/partner-rizal-lib.png')} />
-					{/* <img alt="UXPH Logo" src={require('../assets/partner-uxph.png')} /> */}
+					<img alt="AIPO Logo" src={require('../assets/aipo-logo.png')} />
+					<img alt="Habitat for Humanity Logo" src={require('../assets/hfh-logo.png')} />
 				</div>
 			</div>
 		);

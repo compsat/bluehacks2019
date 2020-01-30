@@ -591,6 +591,14 @@ body, html {
 	width: 180px;
 }
 
+#sponsors-container .logo-white-bg {
+	background-color: white;
+}
+
+#sponsors-container #jpmorgan {
+	margin-bottom: 0;
+}
+
 @media screen and (max-width: 720px){
 	#register-button{
 		width: 60vw;
