@@ -7,33 +7,25 @@ export default class Testimonials extends React.Component {
 				<h1 class="pink">Sponsors</h1>
 				<h3>Co-Presenters</h3>
 				<div class="logos logos-big">
-					<img alt="Accenture Logo" class="logo-white-bg" src={require('../assets/accenture-major1.png')} />
-					<img alt="Angat IO Logo" src={require('../assets/angatio-major2.png')} />
+					<img alt="Accenture" class="logo-white-bg" src={require('../assets/accenture-major1.png')} />
+					<img alt="Angat IO" src={require('../assets/angatio-major2.png')} />
 				</div>
 				<h3>Major Sponsor</h3>
 				<div class="logos logos-big">
 					<img alt="ClinkIT logo" class="logo-white-bg" src={require('../assets/clink-medium1.png')} />
-					<img alt="JP Morgan & Chase Logo" id="jpmorgan" src={require('../assets/jpm-medium2.png')} />
+					<img alt="JP Morgan & Chase" id="jpmorgan" src={require('../assets/jpm-medium2.png')} />
+					<img alt="IBM" src={require('../assets/IBM.png')} />
 				</div>
 				<h3>Minor Sponsors</h3>
 				<div class="logos logos-small">
-					{/* <img alt="Secret6 Logo" src={require('../assets/sponsor-secret6.png')} />
-					<img alt="Freelancer Logo" src={require('../assets/sponsor-freelancer-whitebg.png')} />	 */}
-					<img alt="Pacific Laser Mark Co. Logo" src={require('../assets/pacific-minor1.jpg')} />
+					<img alt="Pacific Laser Mark Co." src={require('../assets/pacific-minor1.jpg')} />
+					<img alt="Ambidextr" class="logo-white-bg" src={require('../assets/ambidextr.png')} />
 				</div>
-				{/* <h3>Yearlong Sponsors</h3>
-				<div class="logos logos-small">
-					<img alt="Factset Logo" src={require('../assets/sponsor-factset.png')} />
-					<img alt="Azeus Logo" src={require('../assets/sponsor-azeus-whitebg.png')} />
-					<img alt="Samsung Logo" src={require('../assets/sponsor-samsung-whitebg.png')} />
-					<img alt="Tanda Logo" src={require('../assets/sponsor-tanda.png')} />
-					<img alt="Accenture Logo" src={require('../assets/sponsor-accenture.png')} />
-				</div> */}
 				<h1 class="pink">Partners</h1>
 				<div class="logos logos-small">
-					<img alt="Rizal Library Logo" src={require('../assets/partner-rizal-lib.png')} />
-					<img alt="AIPO Logo" src={require('../assets/aipo-logo.png')} />
-					<img alt="Habitat for Humanity Logo" src={require('../assets/hfh-logo.png')} />
+					<img alt="Rizal Library" src={require('../assets/partner-rizal-lib.png')} />
+					<img alt="AIPO" src={require('../assets/aipo-logo.png')} />
+					<img alt="Habitat for Humanity" src={require('../assets/hfh-logo.png')} />
 				</div>
 			</div>
 		);
