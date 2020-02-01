@@ -8,13 +8,13 @@ export default class Testimonials extends React.Component {
 				<h3>Co-Presenters</h3>
 				<div class="logos logos-big">
 					<img alt="Accenture" class="logo-white-bg" src={require('../assets/accenture-major1.png')} />
-					<img alt="Angat IO" src={require('../assets/angatio-major2.png')} />
+					<img alt="IBM" id="ibm" src={require('../assets/IBM.png')} />
+					<img alt="Angat IO" id="angat" src={require('../assets/angatio-major2.png')} />
 				</div>
 				<h3>Major Sponsor</h3>
 				<div class="logos logos-big">
-					<img alt="ClinkIT logo" class="logo-white-bg" src={require('../assets/clink-medium1.png')} />
+					<img alt="ClinkIT logo" id="clinkit" class="logo-white-bg" src={require('../assets/clink-medium1.png')} />
 					<img alt="JP Morgan & Chase" id="jpmorgan" src={require('../assets/jpm-medium2.png')} />
-					<img alt="IBM" src={require('../assets/IBM.png')} />
 				</div>
 				<h3>Minor Sponsors</h3>
 				<div class="logos logos-small">

@@ -596,7 +596,20 @@ body, html {
 }
 
 #sponsors-container #jpmorgan {
+	width: 60%;
 	padding-bottom: 1.5rem;
+}
+
+#sponsors-container #ibm {
+	width: 50%;
+}
+
+#sponsors-container #angat {
+	width: 50%;
+}
+
+#sponsors-container #clinkit {
+	width: 35%;
 }
 
 @media screen and (max-width: 720px){
@@ -680,9 +693,9 @@ body, html {
 		margin-left: 2%;
 	}
 
-	#sponsors-container .logos-big img:last-child {
+	/*#sponsors-container .logos-big img:last-child {
 		padding-bottom: 30px;
-	}
+	}*/
 
 	#sponsors-container .logos-small:nth-of-type(2) img:first-child {
 		width: 70px;
@@ -767,9 +780,9 @@ body, html {
 		width: 300px;
 	}
 
-	#sponsors-container .logos-big img:last-child {
+	/*#sponsors-container .logos-big img:last-child {
 		padding-bottom: 48px;
-	}
+	}*/
 
 
 	#sponsors-container .logos-small:nth-of-type(2) img:first-child {
@@ -794,9 +807,9 @@ body, html {
 		width: 50%;
 	}
 
-	#sponsors-container .logos-big img:last-child {
+	/*#sponsors-container .logos-big img:last-child {
 		padding-bottom: 50px;
-	}
+	}*/
 
 	#sponsors-container .logos-small:nth-of-type(2) img:first-child {
 		width: 80px;
