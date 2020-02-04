@@ -179,11 +179,25 @@ body, html {
 	margin:auto;
 }
 
+#center-div {
+	display: flex;
+	justify-content: center;
+}
+
 #register-button-container{
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	margin-top: 10vh;
+	margin-bottom: 10vh;
 }
+
+#register-deadline {
+	margin-top: 1.3vh;
+	text-align: center;
+	font-size: 1.5vw;
+}
+
 #register-button{
 	width: 30vw;
 	height: 10vh;
