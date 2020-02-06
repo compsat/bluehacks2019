@@ -25,6 +25,7 @@ export default class Testimonials extends React.Component {
 				<div class="logos logos-small">
 					<img alt="Rizal Library" src={require('../assets/partner-rizal-lib.png')} />
 					<img alt="AIPO" src={require('../assets/aipo-logo.png')} />
+					<img alt="Developer Student Club" src={require('../assets/dsc-logo.png')} />
 					<img alt="Habitat for Humanity" src={require('../assets/hfh-logo.png')} />
 				</div>
 			</div>
