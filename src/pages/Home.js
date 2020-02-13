@@ -38,7 +38,8 @@ export default class Home extends React.Component {
 							</div>
 							<span id="register-deadline">
 								{" "}
-								Deadline: February 14, 2020, 11:59PM{" "}
+								Early Registration Deadline: February 14, 2020, 11:59PM<br />
+								Late Registration Deadline: February 18, 2020, 11:59PM{" "}
 							</span>
 						</div>
 					</div>
