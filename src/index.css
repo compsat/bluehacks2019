@@ -195,7 +195,7 @@ body, html {
 #register-deadline {
 	margin-top: 1.3vh;
 	text-align: center;
-	font-size: 1.5vw;
+	font-size: 1vw;
 }
 
 #register-button{
@@ -626,6 +626,10 @@ body, html {
 	width: 35%;
 }
 
+#sponsors-container #zalora {
+	width: 50%;
+}
+
 @media screen and (max-width: 720px){
 	#register-button{
 		width: 60vw;
@@ -635,7 +639,7 @@ body, html {
 	#register-deadline{
 		margin-top: 1.3vh;
 		text-align: center;
-		font-size: 2.5vw;
+		font-size: 2vw;
 	}
 }
 
