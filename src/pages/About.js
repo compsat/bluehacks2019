@@ -17,7 +17,7 @@ export default class About extends React.Component {
 						to plan and develop their applications to be pitched 
 						to a panel of judges with diverse backgrounds and disciplines.
 					</p>*/}
-					<iframe title="Blue Hacks 2019 Primer" class="primer-container" src="https://docs.google.com/presentation/d/e/2PACX-1vQ00ZnE09mc2IlbguqWKWXTb9P6g7f7RnQTPx6HQ0aFyHzrWoC8qdWKxtJa949nqS32aC8SFc5ByiYq/embed?start=false&loop=true&delayms=15000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+					<iframe title="Blue Hacks 2020 Primer" class="primer-container" src="https://docs.google.com/presentation/d/e/2PACX-1vRyK3Uk-dAv5UpuH159wI3KjTcCiGcPKR_pSIjv--iNgYssl1zsZt5y4HAet2ipCreLT5SvKHDD7bKK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 				</div>
 			</div>
 		);

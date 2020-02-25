@@ -36,9 +36,14 @@ body, html {
 /* NAVIGATION BAR */
 
 #navbar img {
-	height: 75px;
+	height: auto;
+	width: auto;
+	max-height: 55px;
+	max-width: 55px;
 	display: inline-block;
 	display:fixed;
+	margin-left: 20px;
+	margin-top: 10px;
 }
 
 #navbar ul {
@@ -172,6 +177,49 @@ body, html {
 #home-container p {
 	width: 90%;
 	margin:auto;
+}
+
+#center-div {
+	display: flex;
+	justify-content: center;
+}
+
+#register-button-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
+#register-deadline {
+	margin-top: 1.3vh;
+	text-align: center;
+	font-size: 1vw;
+}
+
+#register-button{
+	width: 30vw;
+	height: 10vh;
+	border-radius: 13px;
+	font-family: 'Share Tech Mono';
+	font-size: 100%;
+	cursor: pointer;
+}
+
+#home-logo-container{
+	display: flex;
+	justify-content: center;
+	margin-top: 10vh;
+	margin-bottom: 5vh
+}
+#home-bh-logo{
+	margin-bottom: -30px;
+	height: auto; 
+    width: auto; 
+    max-width: 250px; 
+	max-height: 300px;
+	text-align: center;
 }
 
 /* ABOUT PAGE */
@@ -557,6 +605,44 @@ body, html {
 	width: 180px;
 }
 
+#sponsors-container .logo-white-bg {
+	background-color: white;
+}
+
+#sponsors-container #jpmorgan {
+	width: 60%;
+	padding-bottom: 1.5rem;
+}
+
+#sponsors-container #ibm {
+	width: 50%;
+}
+
+#sponsors-container #angat {
+	width: 50%;
+}
+
+#sponsors-container #clinkit {
+	width: 35%;
+}
+
+#sponsors-container #zalora {
+	width: 50%;
+}
+
+@media screen and (max-width: 720px){
+	#register-button{
+		width: 60vw;
+		height: 8vh;
+	}
+
+	#register-deadline{
+		margin-top: 1.3vh;
+		text-align: center;
+		font-size: 2vw;
+	}
+}
+
 @media screen and (min-width: 426px){
 	#about-container {
 		width: 80%;
@@ -631,9 +717,9 @@ body, html {
 		margin-left: 2%;
 	}
 
-	#sponsors-container .logos-big img:last-child {
+	/*#sponsors-container .logos-big img:last-child {
 		padding-bottom: 30px;
-	}
+	}*/
 
 	#sponsors-container .logos-small:nth-of-type(2) img:first-child {
 		width: 70px;
@@ -718,9 +804,9 @@ body, html {
 		width: 300px;
 	}
 
-	#sponsors-container .logos-big img:last-child {
+	/*#sponsors-container .logos-big img:last-child {
 		padding-bottom: 48px;
-	}
+	}*/
 
 
 	#sponsors-container .logos-small:nth-of-type(2) img:first-child {
@@ -745,9 +831,9 @@ body, html {
 		width: 50%;
 	}
 
-	#sponsors-container .logos-big img:last-child {
+	/*#sponsors-container .logos-big img:last-child {
 		padding-bottom: 50px;
-	}
+	}*/
 
 	#sponsors-container .logos-small:nth-of-type(2) img:first-child {
 		width: 80px;
